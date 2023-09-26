@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav{
+    background-color: rgb(165, 8, 165);
+    padding: 10px;
+    display: flex;
+}
+
+.title{
+    flex: 5;
+}
+
+p, a{
+    color: #fafafa;
+}
+
+a{
+    flex: 1;
+    text-align: center;
+}

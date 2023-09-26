@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+app-sidebar{
+    width: 20%;
+}
+
+app-phone{
+    width: 80%;
+}
+
+app-footer{
+    position: relative;
+    bottom: 0;
+    background-color: rgba(63, 63, 63, 0.63);
+    padding: 30px 0 10px 0;
+}

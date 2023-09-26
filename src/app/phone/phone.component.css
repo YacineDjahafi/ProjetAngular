@@ -1,0 +1,15 @@
+img{
+    width: 300px;
+    max-height: 300px;
+    margin: 15px;
+}
+.phone{
+    background-color: rgb(109, 109, 108);
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modele, .prix{
+    text-align: center;
+}

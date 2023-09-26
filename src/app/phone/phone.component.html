@@ -1,0 +1,14 @@
+<!-- <div class="phone">
+    <img *ngFor="let phone of phoneList" [src]="phone.src" alt="">
+    <p *ngFor="let phone of phoneList"> {{phone.modele}}</p>
+
+</div> -->
+
+<div class="phone">
+    <div *ngFor="let phone of phoneList">
+        <img [src]="phone.src" alt="">
+        <p class="modele"> {{phone.modele}} </p>
+        <p class="prix" > {{phone.prix}} </p>
+    </div>
+</div>
+
